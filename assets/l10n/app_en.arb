@@ -1,0 +1,121 @@
+{
+    "common_add": "Add",
+    "common_contacts": "Contacts",
+    "common_cancel": "Cancel",
+    "common_next": "Next",
+    "common_discard": "Discard",
+    "common_name": "Name",
+    "common_email_address": "Email address",
+    "common_first_name": "First name",
+    "common_last_name": "Last name",
+    "common_phone_number": "Phone number",
+    "common_optional": "Optional",
+    "common_address": "Address",
+    "common_please_select_an_option": "Please select an option",
+    "common_search": "Search",
+    "common_oops": "Oops!",
+    "common_something_went_wrong": "Something went wrong...",
+    "common_something_went_wrong_message": "The internet connection might be unstable. Go back and try again.",
+    "common_go_back": "Go back",
+    "common_save": "Save",
+    "common_done": "Done",
+    "common_all_done": "All Done",
+    "common_successfully_update": "Successfully updated",
+    "common_successfully_create": "Successfully created",
+    "common_invite_sent": "Invite sent",
+    "common_close": "Close",
+    "common_switch_profile": "Switch profile",
+    "common_go_back_to_save": "Go back to save",
+
+    "contacts_no_contacts": "No contacts",
+    "contacts_plus_icon": "Plus icon",
+    "contacts_no_contacts_empty_message": "on the top right to add a new contact.",
+    "contacts_archive_contact_message": "To remove contacts, please contact your childcare centre",
+    "contacts_add_existing_contacts": "Add existing contacts",
+    "contacts_add_new_contacts": "Add new contact",
+    "contacts_tap": "Tap",
+    "contacts_add_contact": "Add contact",
+    "contacts_invite_sent": "Invite sent",
+    "contacts_emergency_contact": "Emergency Contact",
+    "contacts_collection": "Collection",
+    "contacts_excursion": "Excursion",
+
+    "on_boarding_contacts": "Contacts",
+    "on_boarding_description": "<p>'<b>Contacts</b>' used to be called '<b>Hub Guests/ Authorised Nominee</b>'. In addition, you can give authority to specific people, such as collecting your child from the centre or contacting them during emergencies.</p> <br /><p>To remove Contacts, please get in touch with your childcare centre.</p>",
+
+    "add_contact_title_add_new_contact": "Add New Contact",
+    "add_contact_add_new_contact_note": "All fields are required unless marked as ‘optional’.",
+    "add_contact_enter_address_manually": "Enter address manually",
+    "add_contact_relationship_to_child": "Relationship to child",
+    "add_contact_authorised_for": "Authorised For",
+    "add_contact_authorised_for_all": "Authorised for all",
+    "add_contact_authorised_for_all_description": "Consent authorisation for all",
+    "add_contact_authorised_emergency_description": "Authorised to pick up the child in case of emergency",
+    "add_contact_collection": "Collection",
+    "add_contact_authorised_collection_description": "Authorised to pick up and drop off child from care",
+    "add_contact_authorised_collection_note": "To remove collection authorisation, please get in touch with the centre.",
+    "add_contact_medical": "Medical",
+    "add_contact_authorised_medical_description": "Authorised to make medical decisions on behalf of this child",
+    "add_contact_incursion_and_excursion": "Incursion and excursion",
+    "add_contact_authorised_incursion_and_excursion_description": "Authorised for this child's incursions and excursions",
+    "add_contact_transportation": "Transportation",
+    "add_contact_transportation_description": "Authorised the child being transported by the service or on transportation arranged by the service",
+    "add_contact_creating_note": "By creating an Authorised Nominee, you are adding this person to your child's enrolment record with the permissions you have selected above. By sending this invitation, you agree to affix your digital signature to this electronic record stored with your centre.",
+    "add_contact_send_invite": "Send invite",
+    "add_contact_emergency": "Emergency",
+    "add_contact_save_changes": "Save changes",
+    "add_contact_cant_add_contact": "Can't add contact",
+    "add_contact_cant_update_contact": "Can't update contact",
+    "add_contact_contact_added": "Contact Added",
+    "add_contact_switch_profile_dialog_title": "Switch a child profile",
+    "add_contact_switch_profile_dialog_message": "Contact won’t be saved once you leave this page",
+    "add_contact_leaving_dialog_title": "Are you sure?",
+    "add_contact_leaving_dialog_message": "If you close this screen now, all details won’t be saved.",
+    "add_contact_leaving_dialog_positive_confirm": "Yes, I’m sure",
+
+    "relationship_title": "Relationship to child",
+
+    "address_search_cannot_find": "Cannot find the address",
+
+    "address_form_line_1": "Address line 1",
+    "address_form_line_2": "Address line 2",
+    "address_form_suburb": "Suburb",
+    "address_form_state": "State",
+    "address_form_postcode": "Postcode",
+    "address_form_country": "Country",
+
+    "add_existing_contacts_title": "Add existing contacts",
+    "add_existing_contacts_child_contacts_format": "{name}’s contacts",
+    "@add_existing_contacts_child_contacts_format": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "add_existing_contacts_title": "Add existing contacts",
+    "add_existing_contacts_child_contacts_format": "{name}’s contacts",
+    "@add_existing_contacts_child_contacts_format": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "add_existing_contacts_with_name_format": "Add `{name}`",
+    "@add_existing_contacts_with_name_format": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+
+    "invite_sent_content_message_1": "will need to accept the request via email to become an Authorised Nominee for",
+    "invite_sent_content_message_2": "If they have difficulty finding the email they should check their junk folder.",
+
+    "child_selector_contacts": "Contacts",
+    "child_selector_select_child": "Select Child to access",
+    "child_selector_change_centre": "Change Centre"
+
+}

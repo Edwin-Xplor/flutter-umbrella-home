@@ -157,15 +157,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.6"
-  edu_comms_home:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: "feature/flutter-umbrella"
-      resolved-ref: "3180345eb645d3fa8c97f70dd1675b5ecd356b3c"
-      url: "git@github.com:myxplor/flutter-edu-comms-home.git"
-    source: git
-    version: "1.0.0+1"
   fake_async:
     dependency: transitive
     description:
@@ -425,7 +416,7 @@ packages:
     source: hosted
     version: "4.0.1"
   intl:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: intl
       url: "https://pub.dartlang.org"
