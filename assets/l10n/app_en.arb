@@ -116,6 +116,8 @@
 
     "child_selector_contacts": "Contacts",
     "child_selector_select_child": "Select Child to access",
-    "child_selector_change_centre": "Change Centre"
+    "child_selector_change_centre": "Change Centre",
 
+    "demo_title": "Demo screen",
+    "demo_description": "demo description text here"
 }

@@ -1,16 +1,16 @@
 import 'dart:ui';
 
+import 'package:contact/main.dart' as contacts;
+import 'package:edu_comms_home/main.dart' as edu_comms;
 import 'package:flutter/material.dart';
-import 'package:contact/src/my_app.dart';
 import 'package:flutter_umbrella_home_module/umbrella_app.dart';
-// import 'package:edu_comms_home/src/my_app.dart';
 
 void main() async {
   runApp(UmbrellaApp(route: window.defaultRouteName).getApp());
 }
 
 @pragma('vm:entry-point')
-void contactsModule() => runApp(const ContactsApp());
+void contactsModule() => contacts.main();
 
-// @pragma('vm:entry-point')
-// void eduCommsModule() => runApp(const EduCommsApp());
+@pragma('vm:entry-point')
+void eduCommsModule() => edu_comms.main();

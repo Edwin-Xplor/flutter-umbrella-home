@@ -1,4 +1,5 @@
 import 'package:contact/main.dart';
+import 'package:edu_comms_home/main.dart';
 import 'package:flutter/material.dart';
 
 class UmbrellaApp {
@@ -8,10 +9,10 @@ class UmbrellaApp {
 
   Widget getApp() {
     switch (UmbrellaModules.valueOf(route)) {
-    // UmbrellaModule is class holding static strings.
-      case UmbrellaModules
-          .enumContacts: // UmbrellaModules.login = 'login_module'
+      case UmbrellaModules.enumContacts:
         return const ContactsApp();
+      case UmbrellaModules.enumEduComms:
+        return const EduCommsApp();
       default:
         return const ContactsApp();
     }
@@ -19,7 +20,9 @@ class UmbrellaApp {
 }
 
 enum UmbrellaModules {
-  enumContacts;
+  enumContacts,
+  enumEduComms;
 
-  static UmbrellaModules valueOf(String string) => UmbrellaModules.values.singleWhere((e) => e.toString() == "UmbrellaModules.$string");
+  static UmbrellaModules valueOf(String string) =>
+      UmbrellaModules.values.singleWhere((e) => e.toString() == "UmbrellaModules.$string");
 }

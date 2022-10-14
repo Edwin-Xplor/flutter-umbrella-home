@@ -157,6 +157,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.6"
+  edu_comms_home:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: "feature/flutter-umbrella"
+      resolved-ref: "3180345eb645d3fa8c97f70dd1675b5ecd356b3c"
+      url: "git@github.com:myxplor/flutter-edu-comms-home.git"
+    source: git
+    version: "1.0.0+1"
   fake_async:
     dependency: transitive
     description:
@@ -714,6 +723,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.10.0"
+  stardust_flutter_home:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: cad30db1d142a2e8d385e2b9aa8d4fd264d4701f
+      url: "git@github.com:myxplor/stardust-flutter-home.git"
+    source: git
+    version: "1.0.0+1"
   stream_channel:
     dependency: transitive
     description:

@@ -32,21 +32,21 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
-#  edu_comms_home:
-#    git:
-#      url: git@github.com:myxplor/flutter-edu-comms-home.git
-#      ref: feature/flutter-umbrella
+  edu_comms_home:
+    git:
+      url: git@github.com:myxplor/flutter-edu-comms-home.git
+      ref: feature/flutter-umbrella
 
   contact:
     git:
       url: git@github.com:myxplor/flutter-contacts.git
       ref: feature/flutter-umbrella
 
-#   Flutter Stardust for Home
-#  stardust_flutter_home:
-#    git:
-#      url: git@github.com:myxplor/stardust-flutter-home.git
-#      ref: main
+  # Flutter Stardust for Home
+  stardust_flutter_home:
+    git:
+      url: git@github.com:myxplor/stardust-flutter-home.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
