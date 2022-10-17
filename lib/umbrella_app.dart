@@ -1,20 +1,17 @@
-import 'package:contact/main.dart';
-import 'package:edu_comms_home/main.dart';
-import 'package:flutter/material.dart';
+import 'package:contact/main.dart' as contacts;
+import 'package:edu_comms_home/main.dart' as edu_comms;
 
 class UmbrellaApp {
   final String route;
 
   const UmbrellaApp({required this.route});
 
-  Widget getApp() {
+  runApp() {
     switch (UmbrellaModules.valueOf(route)) {
       case UmbrellaModules.enumContacts:
-        return const ContactsApp();
+        return contacts.main();
       case UmbrellaModules.enumEduComms:
-        return const EduCommsApp();
-      default:
-        return const ContactsApp();
+        return edu_comms.main();
     }
   }
 }

@@ -1,4 +1,4 @@
-name: flutter_umbrella_home_module
+name: flutter_umbrella_home
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -35,12 +35,12 @@ dependencies:
   edu_comms_home:
     git:
       url: git@github.com:myxplor/flutter-edu-comms-home.git
-      ref: feature/flutter-umbrella
+      ref: main
 
   contact:
     git:
       url: git@github.com:myxplor/flutter-contacts.git
-      ref: feature/flutter-umbrella
+      ref: feature/flutter-umbrella-home
 
   # Flutter Stardust for Home
   stardust_flutter_home:
@@ -111,5 +111,5 @@ flutter:
   # identifiers, which may be completely independent or the same as these.
   module:
     androidX: true
-    androidPackage: com.xplor.flutter_umbrella_home_module
-    iosBundleIdentifier: com.xplor.flutterUmbrellaHomeModule
+    androidPackage: com.xplor.flutter_umbrella_home
+    iosBundleIdentifier: com.xplor.flutterUmbrellaHome

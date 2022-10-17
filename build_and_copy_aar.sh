@@ -1,2 +1,2 @@
 flutter build aar
-cp -r /Users/edwin/Documents/Projects/flutter-umbrella-home/build/host/outputs/repo/ /Users/edwin/Documents/Projects/wall-e/app/src/soloRepo/
+cp -r /run/media/edwinm/Evo/Work/Projects/flutter-umbrella-home/build/host/outputs/repo/ /run/media/edwinm/Evo/Work/Projects/wall-e/app/src/soloRepo/

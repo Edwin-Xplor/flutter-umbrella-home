@@ -1,4 +1,4 @@
-# flutter_umbrella_home_module
+# flutter_umbrella_home
 
 A new Flutter project.
 
